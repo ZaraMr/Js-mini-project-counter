@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  font-family: sans-serif;
+}
+
+p#number {
+  font-size: 150px;
+  text-align: center;
+  color: aliceblue;
+}
+
+button {
+  padding: 8px 32px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: black;
+  color: aliceblue;
+}
+
+button#decrease {
+  border: 1px solid rgb(243, 78, 78);
+}
+
+button#increase {
+  border: 1px solid rgb(61, 231, 61);
+}
+
+button#reset {
+  border: 1px solid white;
+}
