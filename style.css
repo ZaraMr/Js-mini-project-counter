@@ -20,19 +20,31 @@ p#number {
 }
 
 button {
-  padding: 8px 32px;
+  padding: 8px 40px;
   border-radius: 8px;
   cursor: pointer;
   background-color: black;
   color: aliceblue;
 }
 
+button:hover {
+  color: yellow;
+}
+
 button#decrease {
-  border: 1px solid rgb(243, 78, 78);
+  border: 1px solid red;
+}
+
+button#decrease:hover {
+  border: 1px solid rgb(243, 58, 58);
 }
 
 button#increase {
-  border: 1px solid rgb(61, 231, 61);
+  border: 1px solid green;
+}
+
+button#increase:hover {
+  border: 1px solid rgb(38, 201, 38);
 }
 
 button#reset {
